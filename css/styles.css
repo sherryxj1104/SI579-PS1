@@ -1,0 +1,35 @@
+body {
+    background-color: lavender;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200px;
+}
+
+#about {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0 100px 0;
+}
+
+.intro {
+    width: 800px;
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: grey;
+    color: white;
+    margin-top: 30px;
+}
